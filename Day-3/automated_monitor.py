@@ -15,4 +15,3 @@ while True:
 			print(f'Access Granted for {name}. Status: Authorized')
 	except ValueError:
 		print('Error: Please enter a valid number of age.')
-
