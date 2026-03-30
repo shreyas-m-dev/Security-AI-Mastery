@@ -1,0 +1,12 @@
+[Unit]
+Description = ALMCE Guardian Day 9 Persistence
+After = network.target
+
+[Service]
+ExecStart = /usr/bin/python3 /home/shreyas/Security-AI-Mastery/Day-9/guardian_monitor.py
+WorkingDirectory = /home/shreyas/Security-AI-Mastery/Day-9
+Restart = always
+User = shreyas
+
+[Install]
+WantedBy = multi-user.target
